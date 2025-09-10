@@ -3,8 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock } from "lucide-react";
 import harambeLogoPath from "@/assets/harambe-logo-transparent.png";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Footer() {
+  const [state, handleSubmit] = useForm("xwpnybnw");
   return (
     <footer className="bg-[hsl(122,63%,25%)] text-white py-12">
       <div className="container mx-auto">
@@ -75,18 +77,25 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-heading font-semibold text-lg mb-4">Newsletter</h4>
-            <p className="text-gray-300 mb-4">Subscribe to get updates on seasonal menus and events.</p>
-            <form className="flex">
-              <Input 
-                type="email" 
-                placeholder="Your email address" 
-                className="rounded-r-none focus-visible:ring-offset-0 text-foreground"
-              />
-              <Button type="submit" className="bg-[hsl(44,100%,52%)] text-[hsl(122,63%,25%)] rounded-l-none hover:bg-[hsl(44,100%,60%)]">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-              </Button>
-            </form>
+            <h4 className="font-heading font-semibold text-lg mb-4">Get a Taste of Exclusive Deals!</h4>
+            <p className="text-gray-300 mb-4">Subscribe to get updates on seasonal menus, discounts and events.</p>
+            {state.succeeded ? (
+              <p className="text-green-400 mb-4">Thank you for subscribing!</p>
+            ) : (
+              <form className="flex" onSubmit={handleSubmit}>
+                <Input 
+                  type="email" 
+                  name="email"
+                  placeholder="Your email address" 
+                  required
+                  className="rounded-r-none focus-visible:ring-offset-0 text-foreground"
+                />
+                <Button type="submit" disabled={state.submitting} className="bg-[hsl(44,100%,52%)] text-[hsl(122,63%,25%)] rounded-l-none hover:bg-[hsl(44,100%,60%)]">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                </Button>
+                <ValidationError prefix="Email" field="email" errors={state.errors} />
+              </form>
+            )}
           </div>
         </div>
         
