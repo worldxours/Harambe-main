@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 12%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
+    
+    --primary: 122 44% 31%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 64% 50%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 44 100% 52%;
+    --accent-foreground: 122 44% 12%;
+    
+    --muted: 122 44% 95%;
+    --muted-foreground: 0 0% 46%;
+    
+    --destructive: 0 64% 50%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 122 44% 31%;
+    
+    --radius: 0.5rem;
+
+    --dark-green: 122 63% 25%;
+    --light-yellow: 44 100% 95%;
+  }
+
+  .dark {
+    --background: 0 0% 12%;
+    --foreground: 0 0% 100%;
+    
+    --card: 0 0% 15%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 0 0% 15%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 122 44% 31%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 64% 50%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 44 100% 52%;
+    --accent-foreground: 122 44% 12%;
+    
+    --muted: 122 44% 20%;
+    --muted-foreground: 0 0% 75%;
+    
+    --destructive: 0 64% 50%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 30%;
+    --input: 0 0% 30%;
+    --ring: 122 44% 31%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body text-[#212121];
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  /* We'll use the custom font class directly */
+
+  .container {
+    @apply px-4 md:px-6 mx-auto;
+  }
+
+  .menu-section:not(:last-child) {
+    @apply border-b border-dashed border-primary pb-8;
+  }
+
+  .gallery-item img {
+    @apply transition-transform duration-300;
+  }
+
+  .gallery-item:hover img {
+    @apply scale-105;
+  }
+}

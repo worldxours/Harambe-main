@@ -1,0 +1,88 @@
+In Menu.tsx please update the navigation buttons to the following sections: Appetizers, Vegetarian, Beef, Chicken, Lamb, Combination Platters, Fish, Injera 
+
+Then for each corresponding section, please update menuData.ts with the following data. The list is separated by section and under each section there is a numbered list of items with the following syntax: name ~ description = price + dietary 
+
+Section: Appetizers
+
+1). Muriyevo Soup ~ Spinach, onions, tomatoes and assorted Harambe spices, made with coconut milk = $8.99 + Vegetarian
+
+2). Harambe Salad ~ Tomatoes, onions, bell peppers, and lettuce with assorted Harambe spices in the dressing. = $8.99 + Vegetarian
+
+3). Peanut Soup ~ Chicken cooked in peanut sauce with Harambe organic spices. = $8.99
+
+4). Dumaskli Soup ~ Milk, corn, and assorted Harambe Organic Ethiopian, made with coconut milk. = $8.99 + Vegetarian
+
+5). Veggie Samosa ~ Brown lentils, onions, garlic, salt, and Harambe spices. = 1 for $2.50 or 3 for $6.00 + Vegetarian
+
+Section: Vegetarian
+
+1). Shero Wot ~ Ground chickpeas cooked in berbere with onions and seasoned with Harambe organic spices. = $14.99 + Vegetarian
+
+2). Miser Wot ~ Red split lentils cooked with onions in berbere and Harambe organic spices. = $14.99 + Vegetarian
+
+3). Tekil Gomen ~ Steamed cabbage and onions seasoned with Harambe organic spices. = $14.99 + Vegetarian
+
+4) Gomen ~ Spinach boiled in onions and sauteed with garlic and Harambe organic spices. = $14.99 + Vegetarian
+
+5). Yatekilt Alicha ~ Sauteed carrots, string beans, potatoes, and onions, seasoned with Harambe organic spices. = $14.99 + Vegetarian
+
+6). Kik Alicha Wot ~ Yellow split lentils cooked with onions in berbere and Harambe organic spices. = $13.99 + Vegetarian
+
+Section: Beef
+
+1). Kitefo ~ Lean tender beef finely chopped tartar and mixed with mitmita cardamom and Ethiopian butter. Served raw or slightly cooked with your choice of spinach or Ateb (Ethiopian Cottage Cheese) and choice of injera or rice. = $23.80
+
+2). Kitefo and Three Kinds of Vegetable Dishes ~ Lean tender beef finely chopped tartar and mixed with mitmita cardamom and Ethiopian butter. Served raw or slightly cooked with your choice of spinach or Ateb (Ethiopian Cottage Cheese) and choice of injera or rice. = $31.80
+
+3). Zilzil Tibs ~ Strips of tender beef sauteed with onions, exotic herbs, and berbere. Served with salad and choice of injera or rice. = $25.99
+
+4). Awaze Tibs ~ Beef chunks sauteed in butter, seasoned with onions, green peppers, and organic Ethiopian spices, and served with Harambe salad and choice of injera or rice. = $23.80
+
+5). Awaze Tibs and Three Kinds of Vegetable Dishes ~ Awaze tibs with chef's choice of three items from the standard vegetable combination and injera or rice. = $31.80
+
+6). Gored Gored ~ Chucked cubed beef mixed with homemade awaze sauce and herbal butter with your choice of injera or rice. $24.99
+
+7). Alicha Wot ~ Diced lean meat simmered with onions, ginger, garlic, and assorted Harambe organic spices. Served with salad and choice of injera or rice. = $22.99
+
+8). Alicha Wot and Three Kinds of Vegetable Dishes ~ Alatcha Wot with chef's choice of three items from the standard vegetable combination and injera or rice. = $30.99
+
+Chicken
+
+1). Doro Wot ~ Chicken stew with hard-boiled eggs, chicken thigh, leg, and egg, cooked with onions in rich berbere sauce. Very tasty and served with Ayeb (Ethiopian Cottage Cheese) and Injera or rice. = $19.99
+
+2). Doro Wot and Three Kinds of Vegetable Dishes ~ Doro wot with chef's choice of three items from the standard vegetable combination. = $27.99
+
+3). Doro Tibs ~ Chicken cubes sauteed with onions, garlic, spices, and mixed vegetables. Served with salad and choice of injera or rice. = $24.99
+
+4). Doro Tibs and Three Kinds of Vegetable Dishes ~ Doro tibs with chef's choice of three items from the standard vegetable combination. = $32.99
+
+
+Lamb
+
+1). Yebeg Tibs ~ Lamb cubes pan fried in jalapenos, onions, and rosemary, served with Harambe salad. = $24.99
+
+2). Yebeg Tibs with Three Kinds of Vegetable Dishes ~ Yebeg tibs with chef's choice of three items from the standard vegetable combination. = $32.99
+
+3). Yebeg Wot ~ Lamb simmered in berbere sauce, seasoned with organic Harambe spices, and served with salad. = $23.80
+
+4). Yebeg Wot with Three Kinds of Vegetable Dishes ~ Yebeg Wot with chef's choice of three items from the standard vegetable combination. = $31.80
+
+Section: Combination Platters
+
+1). Veggie Lovers Combination ~ Assorted Harambe vegetarian dishes with Harambe salad. = One Person $16.50, Two People $32.98, Three People $49.50, Four People $66.00, Five People $82.50, Six People $99.00 + Vegetarian
+
+2). Chef's Choice Combination ~ Yebeg Wot, Doro Wot, and Alicha Wot with Harambe assorted vegetarian dishes from the menu. = One Person $22.99, Two People $43.80, Three People $62.67, Four People $95.96, Five People $114.50, Six People $137.99
+
+
+Fish
+
+1). Ye Assa Tibs ~ Fish of the day pan fried and delicately seasoned with Ethiopian herbs and spices, served with a side salad and choice of injera or rice. = $24.99
+
+2). Ye Assa Tibs and Three Kinds of Vegetable Dishes ~ Ye assa tibs with chef's choice of three items from the standard vegetable combination. =
+$32.99
+
+
+Injera
+
+1). Injera ~ For thousands of years, Ethiopians have made traditional Ethiopian bread called Injera when eating and Ethiopian meal. Injera serves both as your platter and utensil
+Standard Injera Included with your meal. Gluten free Injera are $3.00 each = ' ' + Vegetarian
