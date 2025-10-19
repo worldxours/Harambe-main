@@ -2,12 +2,22 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock } from "lucide-react";
-import hoursData from "@/data/hours.json";
+import { useEffect, useState } from "react";
 import harambeLogoPath from "@/assets/harambe-logo-transparent.png";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Footer() {
   const [state, handleSubmit] = useForm("xwpnybnw");
+  const [hoursData, setHoursData] = useState<{ hours: { days: string; time: string }[] }>({ hours: [] });
+
+  useEffect(() => {
+    fetch('/data/hours.json')
+      .then((r) => r.json())
+      .then((data) => setHoursData(data))
+      .catch(() => {
+        /* keep empty on error */
+      });
+  }, []);
   return (
     <footer className="bg-[hsl(122,63%,25%)] text-white py-12">
       <div className="container mx-auto">

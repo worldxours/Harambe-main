@@ -1,9 +1,19 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import hoursData from "@/data/hours.json";
+import { useEffect, useState } from "react";
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xwpnybnw");
+  const [hoursData, setHoursData] = useState<{ hours: { days: string; time: string }[] }>({ hours: [] });
+
+  useEffect(() => {
+    fetch('/data/hours.json')
+      .then((r) => r.json())
+      .then((data) => setHoursData(data))
+      .catch(() => {
+        /* swallow — keep empty hours if fetch fails */
+      });
+  }, []);
 
   if (state.succeeded) {
     return (
