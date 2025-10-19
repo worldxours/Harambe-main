@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock } from "lucide-react";
+import hoursData from "@/data/hours.json";
 import harambeLogoPath from "@/assets/harambe-logo-transparent.png";
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -69,8 +70,9 @@ export default function Footer() {
               <li className="flex items-start">
                 <Clock className="h-5 w-5 text-[hsl(44,100%,52%)] mr-3 mt-1 shrink-0" />
                 <div className="text-gray-300">
-                  <p>Sun - Thu: 12:00 PM - 10:00 PM</p>
-                  <p>Fri - Sat: 12:00 PM - 11:00 PM</p>
+                  {hoursData.hours.map((h, idx) => (
+                    <p key={idx}>{h.days}: {h.time}</p>
+                  ))}
                 </div>
               </li>
             </ul>

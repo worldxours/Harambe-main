@@ -1,5 +1,6 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import hoursData from "@/data/hours.json";
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xwpnybnw");
@@ -91,10 +92,13 @@ export default function Contact() {
                 <Clock className="text-[hsl(44,100%,52%)] h-5 w-5 mr-4 mt-1" />
                 <div>
                   <h4 className="font-medium">Hours</h4>
-                  <p className="text-[#757575]">
-                    Sunday - Thursday: 12:00 PM - 10:00 PM<br />
-                    Friday - Saturday: 12:00 PM - 11:00 PM
-                  </p>
+                  <div className="text-[#757575]">
+                    {hoursData.hours.map((h, idx) => (
+                      <p key={idx}>
+                        {h.days}: {h.time}
+                      </p>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,0 +1,24 @@
+{
+  "hours": [
+    {
+      "days": "Monday",
+      "time": "12:00PM - 10:00PM"
+    },
+    {
+      "days": "Tuesday",
+      "time": "4:00PM - 10:00PM"
+    },
+    {
+      "days": "Wednesday",
+      "time": "12:00PM - 10:00PM"
+    },
+    {
+      "days": "Thursday",
+      "time": "12:00PM - 10:00PM"
+    },
+    {
+      "days": "Friday & Saturday",
+      "time": "12:00PM - 11:00PM"
+    }
+  ]
+}
