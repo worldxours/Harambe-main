@@ -19,13 +19,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
         data: submission
       });
     } catch (error) {
-      if (error instanceof Error) {
-        const validationError = fromZodError(error);
+      // If it's a Zod validation error, return a 400 with details
+      // `fromZodError` expects a ZodError, so only call it when the error has `issues`.
+      const anyErr = error as any;
+      if (anyErr && typeof anyErr === 'object' && Array.isArray(anyErr.issues)) {
+        const validationError = fromZodError(anyErr);
         return res.status(400).json({
           success: false,
           message: validationError.message,
         });
       }
+
       return res.status(500).json({
         success: false,
         message: "An unexpected error occurred while processing your request."

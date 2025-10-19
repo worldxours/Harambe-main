@@ -1,0 +1,290 @@
+{
+  "appetizers": [
+    {
+      "id": 1,
+      "name": "Muriyevo Soup",
+      "price": 8.99,
+      "description": "Spinach, onions, tomatoes and assorted Harambe spices, made with coconut milk",
+      "image": "Muriyevo Soup.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": 2,
+      "name": "Harambe Salad",
+      "price": 8.99,
+      "description": "Tomatoes, onions, bell peppers, and lettuce with assorted Harambe spices in the dressing.",
+      "image": "Harambe Salad.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": 3,
+      "name": "Peanut Soup",
+      "price": 8.99,
+      "description": "Chicken cooked in peanut sauce with Harambe organic spices.",
+      "image": "Peanut Soup.png",
+      "dietary":"Chicken"
+    },
+    {
+      "id": 4,
+      "name": "Dumaskli Soup",
+      "price": 8.99,
+      "description": "Milk, corn, and assorted Harambe Organic Ethiopian, made with coconut milk.",
+      "image": "Dumaskli Soup.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    }
+  ],
+  "vegetarian": [
+    {
+      "id": 6,
+      "name": "Shero Wot",
+      "price": 14.99,
+      "description": "Ground chickpeas cooked in berbere with onions and seasoned with Harambe organic spices.",
+      "image": "Shero Wot.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": 7,
+      "name": "Misir Wot",
+      "price": 14.99,
+      "description": "Red split lentils cooked with onions in berbere and Harambe organic spices.",
+      "image": "Misir Wot.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": 8,
+      "name": "Tekil Gomen",
+      "price": 14.99,
+      "description": "Steamed cabbage and onions seasoned with Harambe organic spices.",
+      "image": "Tekil Gomen.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": 9,
+      "name": "Gomen",
+      "price": 14.99,
+      "description": "Spinach boiled in onions and sauteed with garlic and Harambe organic spices.",
+      "image": "Gomen.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": 10,
+      "name": "Yatekilt Alicha",
+      "price": 14.99,
+      "description": "Sauteed carrots, string beans, potatoes, and onions, seasoned with Harambe organic spices.",
+      "image": "Alatcha Wot.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": 11,
+      "name": "Kik Alicha Wot",
+      "price": 13.99,
+      "description": "Yellow split lentils cooked with onions in berbere and Harambe organic spices.",
+      "image": "Kik Alicha Wot.png",
+      "dietary": "Vegetarian",
+      "label": "Vegetarian"
+    }
+  ],
+  "beef": [
+    {
+      "id": 12,
+      "name": "Kitefo",
+      "price": 23.8,
+      "description": "Lean tender beef finely chopped tartar and mixed with mitmita cardamom and Ethiopian butter. Served raw or slightly cooked with your choice of spinach or Ateb (Ethiopian Cottage Cheese) and choice of injera or rice.",
+      "image": "Kitefo.png",
+      "dietary":"Beef"
+    },
+    {
+      "id": 13,
+      "name": "Kitefo and Three Kinds of Vegetable Dishes",
+      "price": 31.8,
+      "description": "Lean tender beef finely chopped tartar and mixed with mitmita cardamom and Ethiopian butter. Served raw or slightly cooked with your choice of spinach or Ateb (Ethiopian Cottage Cheese) and choice of injera or rice.",
+      "image": "Kitefo and three Kinds of Vegetable Dishes.png",
+      "dietary": "Beef"
+    },
+    {
+      "id": 14,
+      "name": "Zilzil Tibs",
+      "price": 25.99,
+      "description": "Strips of tender beef sauteed with onions, exotic herbs, and berbere. Served with salad and choice of injera or rice.",
+      "image": "Zilzil Tibs.png",
+      "dietary":"Beef"
+    },
+    {
+      "id": 15,
+      "name": "Awaze Tibs",
+      "price": 23.8,
+      "description": "Beef chunks sauteed in butter, seasoned with onions, green peppers, and organic Ethiopian spices, and served with Harambe salad and choice of injera or rice.",
+      "image": "Awaze Tibs.png",
+      "dietary":"Beef"
+    },
+    {
+      "id": 16,
+      "name": "Awaze Tibs and Three Kinds of Vegetable Dishes",
+      "price": 31.8,
+      "description": "Awaze tibs with chef's choice of three items from the standard vegetable combination and injera or rice.",
+      "image": "Awaze Tibs.png",
+      "dietary":"Beef"
+    },
+    {
+      "id": 17,
+      "name": "Gored Gored",
+      "price": 24.99,
+      "description": "Chucked cubed beef mixed with homemade awaze sauce and herbal butter with your choice of injera or rice.",
+      "image": "Gored Gored.png",
+      "dietary":"Beef"
+    },
+    {
+      "id": 18,
+      "name": "Alicha Wot",
+      "price": 22.99,
+      "description": "Diced lean meat simmered with onions, ginger, garlic, and assorted Harambe organic spices. Served with salad and choice of injera or rice.",
+      "image": "Alatcha Wot.png",
+      "dietary":"Beef"
+    },
+    {
+      "id": 19,
+      "name": "Alicha Wot and Three Kinds of Vegetable Dishes",
+      "price": 30.99,
+      "description": "Alatcha Wot with chef's choice of three items from the standard vegetable combination and injera or rice.",
+      "image": "Alatcha Wot.png",
+      "dietary":"Beef"
+    }
+  ],
+  "chicken": [
+    {
+      "id": 20,
+      "name": "Doro Wot",
+      "price": 19.99,
+      "description": "Chicken stew with hard-boiled eggs, chicken thigh, leg, and egg, cooked with onions in rich berbere sauce. Very tasty and served with Ayeb (Ethiopian Cottage Cheese) and Injera or rice.",
+      "image": "Doro Wot.png",
+      "dietary":"Chicken"
+    },
+    {
+      "id": 21,
+      "name": "Doro Wot and Three Kinds of Vegetable Dishes",
+      "price": 27.99,
+      "description": "Doro wot with chef's choice of three items from the standard vegetable combination.",
+      "image": "Doro Wot.png",
+      "dietary":"Chicken"
+    },
+    {
+      "id": 22,
+      "name": "Doro Tibs",
+      "price": 24.99,
+      "description": "Chicken cubes sauteed with onions, garlic, spices, and mixed vegetables. Served with salad and choice of injera or rice.",
+      "image": "Doro Tibs.png",
+      "dietary":"Chicken"
+    },
+    {
+      "id": 23,
+      "name": "Doro Tibs and Three Kinds of Vegetable Dishes",
+      "price": 32.99,
+      "description": "Doro tibs with chef's choice of three items from the standard vegetable combination.",
+      "image": "Doro Tibs with three kinds of veggies.png",
+      "dietary":"Chicken"
+    }
+  ],
+  "lamb": [
+    {
+      "id": 24,
+      "name": "Yebeg Tibs",
+      "price": 24.99,
+      "description": "Lamb cubes pan fried in jalapenos, onions, and rosemary, served with Harambe salad.",
+      "image": "Yebeg Tibs.png",
+      "dietary":"Lamb"
+    },
+    {
+      "id": 25,
+      "name": "Yebeg Tibs with Three Kinds of Vegetable Dishes",
+      "price": 32.99,
+      "description": "Yebeg tibs with chef's choice of three items from the standard vegetable combination.",
+      "image": "Yebeg Tibs.png",
+      "dietary":"Lamb"
+    },
+    {
+      "id": 26,
+      "name": "Yebeg Wot",
+      "price": 23.8,
+      "description": "Lamb simmered in berbere sauce, seasoned with organic Harambe spices, and served with salad.",
+      "image": "Yebeg Wot with three kinds veggies.png",
+      "dietary":"Lamb"
+    },
+    {
+      "id": 27,
+      "name": "Yebeg Wot with Three Kinds of Vegetable Dishes",
+      "price": 31.8,
+      "description": "Yebeg Wot with chef's choice of three items from the standard vegetable combination.",
+      "image": "Yebeg Wot with three kinds veggies.png",
+      "dietary":"Lamb"
+    }
+  ],
+  "combinationPlatters": [
+    {
+      "id": 28,
+      "name": "Veggie Lovers Combination",
+      "price": {
+        "One Person": 16.5,
+        "Two People": 32.98,
+        "Three People": 49.5,
+        "Four People": 66,
+        "Five People": 82.5,
+        "Six People": 99
+      },
+      "description": "Assorted Harambe vegetarian dishes with Harambe salad.",
+      "image": "Veggie Lovers Combination.png",
+      "dietary": ["Vegetarian", "Combination Platters"],
+      "label": "Vegetarian"
+    },
+    {
+      "id": 29,
+      "name": "Chef's Choice Combination",
+      "price": {
+        "One Person": 22.99,
+        "Two People": 43.8,
+        "Three People": 62.67,
+        "Four People": 95.96,
+        "Five People": 114.5,
+        "Six People": 137.99
+      },
+      "description": "Yebeg Wot, Doro Wot, and Alicha Wot with Harambe assorted vegetarian dishes from the menu.",
+      "image": "Chef's Choice Combination.png",
+      "dietary": ["Combination Platters","Chicken", "Lamb", "Beef"]
+    }
+  ],
+  "fish": [
+    {
+      "id": 30,
+      "name": "Ye Assa Tibs",
+      "price": 24.99,
+      "description": "Fish of the day pan fried and delicately seasoned with Ethiopian herbs and spices, served with a side salad and choice of injera or rice.",
+      "image": "Ye Assa Tibs.png",
+      "dietary": "Fish"
+    },
+    {
+      "id": 31,
+      "name": "Ye Assa Tibs and Three Kinds of Vegetable Dishes",
+      "price": 32.99,
+      "description": "Ye assa tibs with chef's choice of three items from the standard vegetable combination.",
+      "image": "Ye Assa Tibs and three Kinds of Vegetable Dishes.png",
+      "dietary": "Fish"
+    }
+  ],
+  "injera": [
+    {
+      "id": 32,
+      "name": "Injera",
+      "price": 0,
+      "description": "For thousands of years, Ethiopians have made traditional Ethiopian bread called Injera when eating and Ethiopian meal. Injera serves both as your platter and utensil. Standard Injera Included with your meal. Gluten free Injera are $3.00 each",
+      "image": "Injera.png",
+      "dietary": "Vegetarian"
+    }
+  ]
+}
